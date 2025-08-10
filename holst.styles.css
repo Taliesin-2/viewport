@@ -67,19 +67,11 @@ table {
 
 /* ----- DARK MODE ----- */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--dark-gray);
-        color: var(--light-gray);
-    }
-    header, footer {
-        background-color: var(--black);
-        color: var(--white);
-    }
-    section {
-        background-color: var(--blue-gray);
-        color: var(--black);
-    }
+  body {
+    background-color: var(--dark-gray);
+  }
 }
+
 
 /* ----- HEADINGS ----- */
 h1, h2, h3, h4 {
